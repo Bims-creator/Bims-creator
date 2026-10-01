@@ -19,5 +19,6 @@ Working across AWS, Azure, GCP, and Kubernetes — mostly security tooling, infr
 #### CI/CD & platform engineering
 
 - **[secure-cicd-pipeline](https://github.com/Bims-creator/secure-cicd-pipeline)** — a hardened CI/CD pipeline: OIDC federation to AWS, SHA-pinned GitHub Actions, Gitleaks/CodeQL/npm audit scanning, manual approval gates.
+- **[canary-rollout-orchestrator](https://github.com/Bims-creator/canary-rollout-orchestrator)** — a Python orchestrator that rolls out a deploy across a flaky fleet, telling transient failures apart from real regressions and rolling back when needed.
 - **[orderflow-platform](https://github.com/Bims-creator/orderflow-platform)** — an order-processing platform on Terraform-provisioned Kubernetes, ArgoCD GitOps, CI/CD with image scanning, and Prometheus/Grafana observability.
 - **[security-chaos-engineering](https://github.com/Bims-creator/security-chaos-engineering)** — a custom Python fault-injection agent for chaos-testing security invariants (fail-open vs. fail-closed) on a 3-service Kubernetes app.
